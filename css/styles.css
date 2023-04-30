@@ -488,10 +488,15 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 2.5;
+  color: #fff;
+  background-color: #00000049;
+  border-radius: 8%;
+  padding: 3%;
 }
-
+.lylic_hwan{width: 66%!important;}
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -8127,9 +8132,16 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
-}
+  background:url('../img/WHALE_BG.jpg');
+  background-size: contain;
 
+}
+.bg-primary.footer {
+  --bs-bg-opacity: 1;
+  background:url('../img/lylic_hwan.jpg');
+  background-size: contain;
+
+}
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -10836,6 +10848,12 @@ html {
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
+  background-color:#ffffff78;
+  padding: 3% 0;
+  color: #000!important;
+border-radius: 25%;
+width: 50%;
+margin: 0 auto;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
@@ -10853,7 +10871,7 @@ html {
 }
 .divider-custom .divider-custom-line {
   width: 100%;
-  max-width: 7rem;
+  max-width: 10rem;
   height: 0.25rem;
   background-color: #2c3e50;
   border-radius: 1rem;
@@ -10868,6 +10886,8 @@ html {
 .divider-custom .divider-custom-icon {
   color: #2c3e50;
   font-size: 2rem;
+  text-align: center
+  ;
 }
 .divider-custom.divider-light .divider-custom-line {
   background-color: #fff;
@@ -10984,7 +11004,7 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(6rem + 15rem);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
@@ -11044,3 +11064,4 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+.contact_us_emo{width: 50%;}
